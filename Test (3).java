@@ -64,6 +64,7 @@ public class Test {
         
         System.out.println("\n\nDelete the photo ’bear.jpg’:");
         manager.deletePhoto("bear.jpg");
+        invmanager.deletePhoto("bear.jpg");
         
         System.out.println("\n\nGet album3 name, condition, and photos:");
         System.out.println("album3 name: " + album3.getName());
